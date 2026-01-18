@@ -1,0 +1,54 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "exp_new7c",
+  "dataset_size": 25229830,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/ExplosionNuclear/ExpNew7c@10b84ce44eff38495be789ff4ad10bf0e60c59ed/data/train-00000-of-00001.parquet": {
+      "num_bytes": 9706024,
+      "checksum": null
+    }
+  },
+  "download_size": 9706024,
+  "features": {
+    "extended_15": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "extended_7": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "extended_5": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "extended_10": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "final_answer": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 34935854,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 25229830,
+      "num_examples": 14708,
+      "dataset_name": "exp_new7c"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
